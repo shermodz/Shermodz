@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHERMODZ | Scientific Revolution</title>
+  <meta name="description" content="SHERMODZ - science, innovation, theories, interactive learning, and futuristic technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="site-header" id="top">
+    <div class="logo-wrap">
+      <img class="brand-logo" src="assets/shermodz-logo.svg" alt="SHERMODZ official logo" loading="eager" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+      <div class="logo-fallback" style="display:none;"><span>S+</span></div>
+      <div>
+        <p class="eyebrow">Scientific Community</p>
+        <h1>SHERMODZ</h1>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#theories">Theories</a>
+      <a href="#simulations">Simulations</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="tagline">"Science is not a subject, it is a way to see and invent the world."</p>
+        <h2>Rational Revolution of Science, Education & Technology</h2>
+        <p>💠 This is the community for sharing incredible scientific knowledge, developing out-of-the-box mentality, and solving real-life problems using scientific thinking.</p>
+        <p class="quote">"Imagination is more important than knowledge, knowledge is limited but imagination encircle the world 🌎"</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#intro-video">Watch Intro</a>
+          <a class="btn ghost" href="#subjects">Explore Subjects</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <h3>What SHERMODZ Delivers</h3>
+        <ul>
+          <li>Real use of science through education and projects.</li>
+          <li>New theories, innovations, and practical inventions.</li>
+          <li>Interactive lessons, quizzes, and simulation-based learning.</li>
+          <li>A mindset to observe, question, design, and build.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="intro-video">
+      <h2>Intro Video</h2>
+      <p>Start your SHERMODZ journey with the channel intro.</p>
+      <div class="video-wrap reveal">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed?listType=search&list=shermodz%20official%20intro"
+          title="Shermodz intro video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+      <p class="video-fallback">If embed is blocked, open: <a href="https://youtube.com/@shermodz" target="_blank" rel="noopener">youtube.com/@shermodz</a>.</p>
+    </section>
+
+    <section class="section" id="about">
+      <h2>Leadership & Branches</h2>
+      <div class="grid two-col">
+        <article class="card reveal">
+          <h3>CEO & Founder</h3>
+          <p><strong>Aswin B S</strong> — The scientific guy who makes real inventions from imagination.</p>
+          <p>Building SHERMODZ as a science-first ecosystem for global learners and innovators.</p>
+        </article>
+        <article class="card reveal">
+          <h3>COO</h3>
+          <p><strong>Anuj Philip</strong> — Leads operations, strategic execution, and community growth.</p>
+        </article>
+      </div>
+      <div class="grid two-col">
+        <article class="card reveal">
+          <h3>EDUSHER</h3>
+          <p><strong>Rational Revolution of Science in terms of Education</strong></p>
+          <p>Deep conceptual teaching, exam-ready clarity, and practical scientific mindset.</p>
+        </article>
+        <article class="card reveal">
+          <h3>CARBOSPARK</h3>
+          <p><strong>Rational Revolution of Science in terms of Technology</strong></p>
+          <p>Future materials, electronics, systems engineering, and innovation pipelines.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="subjects">
+      <h2>Learning Universe (with History + Applications)</h2>
+      <p>Choose a subject. Use the filter to quickly find what you want to learn.</p>
+      <input id="subjectFilter" class="filter-input" type="search" placeholder="Filter subjects... e.g. quantum, electronics, psychology" aria-label="Filter subjects" />
+
+      <div class="subject-grid" id="subjectGrid">
+        <article class="subject-card reveal" data-subject="classical physics newtonian dynamics equations force motion"><img src="https://images.unsplash.com/photo-1581092160612-1d6b9ab80d73?auto=format&fit=crop&w=900&q=80" alt="Classical physics"><h3>Classical Physics</h3><p>Newtonian dynamics, laws of motion, charge-force equations, and foundational mechanics.</p></article>
+        <article class="subject-card reveal" data-subject="theoretical physics standard model gut toe"><img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=900&q=80" alt="Theoretical physics"><h3>Theoretical Physics</h3><p>Standard model, unification ideas, GUT and TOE pathways.</p></article>
+        <article class="subject-card reveal" data-subject="quantum mechanics quantum electrodynamics chromodynamics gravity"><img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=900&q=80" alt="Quantum mechanics"><h3>Quantum Mechanics</h3><p>Wave mechanics, uncertainty, QED, QCD, and quantum gravity challenges.</p></article>
+        <article class="subject-card reveal" data-subject="special relativity general relativity spacetime"><img src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=900&q=80" alt="Relativity"><h3>Relativity</h3><p>Special and general relativity, spacetime curvature, cosmological implications.</p></article>
+        <article class="subject-card reveal" data-subject="engineering systems problem solving"><img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80" alt="Engineering"><h3>Engineering</h3><p>Practical design thinking, systems modeling, and real-world science solutions.</p></article>
+        <article class="subject-card reveal" data-subject="psychology body language behavior"><img src="https://images.unsplash.com/photo-1576671414121-aa0c81c86916?auto=format&fit=crop&w=900&q=80" alt="Psychology"><h3>Psychology & Body Language</h3><p>Behavior analysis, communication cues, and scientific thinking in human interaction.</p></article>
+        <article class="subject-card reveal" data-subject="inorganic chemistry periodic table"><img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=900&q=80" alt="Chemistry"><h3>Inorganic Chemistry</h3><p>Periodic table logic, bonding trends, and chemical structure understanding.</p></article>
+        <article class="subject-card reveal" data-subject="material design graphene carbon nanotubes"><img src="https://images.unsplash.com/photo-1581093806997-124204d9fa9d?auto=format&fit=crop&w=900&q=80" alt="Materials"><h3>Material Design</h3><p>Graphene, carbon nanotubes, advanced materials, and device-level applications.</p></article>
+        <article class="subject-card reveal" data-subject="electronics electrical ac motors tesla polyphase"><img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=900&q=80" alt="Electronics"><h3>Electronics & Electrical</h3><p>Nikola Tesla, AC motors, polyphase current, circuits, and electronic device function.</p></article>
+        <article class="subject-card reveal" data-subject="artificial intelligence fictional technology to reality"><img src="https://images.unsplash.com/photo-1563770660941-10a6360765f0?auto=format&fit=crop&w=900&q=80" alt="AI"><h3>AI + Futuristic Tech</h3><p>How AI works, model thinking, and converting fictional technology into practical pathways.</p></article>
+      </div>
+      <p id="filterMessage" class="muted-small"></p>
+    </section>
+
+    <section class="section" id="timeline">
+      <h2>Historical Timeline — Quantum Physics Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span>1900</span><p>Planck quantizes energy.</p></div>
+        <div class="timeline-item reveal"><span>1905</span><p>Einstein explains photoelectric effect.</p></div>
+        <div class="timeline-item reveal"><span>1913</span><p>Bohr introduces quantized atomic orbit model.</p></div>
+        <div class="timeline-item reveal"><span>1925-1927</span><p>Heisenberg, Schrödinger, Dirac build modern quantum mechanics.</p></div>
+        <div class="timeline-item reveal"><span>1940s-1970s</span><p>QED and QCD foundations mature.</p></div>
+        <div class="timeline-item reveal"><span>Current Era</span><p>Work on quantum gravity, GUT and TOE.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="theories">
+      <h2>Advanced Theory Hub</h2>
+      <div class="accordion">
+        <details class="reveal"><summary>10 scientifically discussed pathways to time-travel ideas</summary><p>Relativistic time dilation, wormholes, closed timelike curves, rotating black holes, cosmic strings, Gödel universe models, warp-metric concepts, retrocausal interpretations, tachyon thought experiments, and block-universe models.</p></details>
+        <details class="reveal"><summary>Special + General Relativity essentials</summary><p>Lorentz transformations, time dilation, length contraction, equivalence principle, Einstein field equations, geodesics, and black-hole spacetime.</p></details>
+        <details class="reveal"><summary>Standard Model + QED + QCD + Quantum Gravity</summary><p>Particle sectors, gauge interactions, electroweak unification, strong force confinement, and the unresolved bridge to gravity.</p></details>
+        <details class="reveal"><summary>Classical equations + Electrical science</summary><p>Newton's laws, Coulomb's law, Maxwell equations, Ohm's law, Kirchhoff laws, AC machine principles and polyphase systems.</p></details>
+        <details class="reveal"><summary>Chemistry + Device fundamentals</summary><p>Periodic table trends, hydrogen spectrum, discharge tube physics, semiconductors, transistor behavior, and weapon technology ethics overview.</p></details>
+      </div>
+    </section>
+
+    <section class="section" id="simulations">
+      <h2>Interactive Lessons & Simulations (PhET)</h2>
+      <div class="sim-links reveal">
+        <a href="https://phet.colorado.edu/" target="_blank" rel="noopener">PhET Main</a>
+        <a href="https://phet.colorado.edu/en/simulations/category/physics" target="_blank" rel="noopener">Physics</a>
+        <a href="https://phet.colorado.edu/en/simulations/category/chemistry" target="_blank" rel="noopener">Chemistry</a>
+        <a href="https://phet.colorado.edu/en/simulations/category/math" target="_blank" rel="noopener">Math</a>
+      </div>
+    </section>
+
+    <section class="section" id="quiz">
+      <h2>Quick Science Quiz</h2>
+      <form id="quizForm" class="card reveal">
+        <label>1) Which theory treats gravity as spacetime curvature?
+          <select name="q1" required>
+            <option value="">Choose</option>
+            <option value="General Relativity">General Relativity</option>
+            <option value="Classical Mechanics">Classical Mechanics</option>
+            <option value="QED">QED</option>
+          </select>
+        </label>
+        <label>2) Tesla is strongly associated with what?
+          <select name="q2" required>
+            <option value="">Choose</option>
+            <option value="AC Polyphase">AC Polyphase</option>
+            <option value="DC-only grids">DC-only grids</option>
+            <option value="Nuclear Fission">Nuclear Fission</option>
+          </select>
+        </label>
+        <label>3) Which model includes electromagnetic, weak and strong interactions?
+          <select name="q3" required>
+            <option value="">Choose</option>
+            <option value="Standard Model">Standard Model</option>
+            <option value="Bohr Planetary Model">Bohr Planetary Model</option>
+            <option value="Classical Thermodynamics">Classical Thermodynamics</option>
+          </select>
+        </label>
+        <button type="submit" class="btn primary">Check Score</button>
+        <p id="quizResult" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="section" id="connect">
+      <h2>Connect with SHERMODZ</h2>
+      <div class="grid two-col">
+        <div class="card reveal">
+          <p><strong>Website:</strong> <a href="https://shermodz.blogspot.com" target="_blank" rel="noopener">shermodz.blogspot.com</a></p>
+          <p><strong>WhatsApp Channel:</strong> <a href="https://whatsapp.com/channel/0029VbB594THgZWaplNfWj2L" target="_blank" rel="noopener">Join Channel</a></p>
+          <p><strong>Arattai Channel:</strong> <a href="https://aratt.ai/@shermodz" target="_blank" rel="noopener">@shermodz</a></p>
+          <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0000-4201-8418" target="_blank" rel="noopener">0009-0000-4201-8418</a></p>
+          <p><strong>YouTube:</strong> <a href="https://youtube.com/@shermodz" target="_blank" rel="noopener">@shermodz</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shermodz" target="_blank" rel="noopener">/in/shermodz</a></p>
+        </div>
+        <div class="card reveal">
+          <h3>Community Purpose</h3>
+          <p>Share knowledge, publish projects and theories, ask scientific questions, and build practical solutions through science-led thinking.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> SHERMODZ • Science is a way to see the world.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

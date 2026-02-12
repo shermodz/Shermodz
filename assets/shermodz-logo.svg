@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="SHERMODZ logo">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#061428"/>
+      <stop offset="100%" stop-color="#02050d"/>
+    </radialGradient>
+    <filter id="glowGreen" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBlue" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6dff64"/>
+      <stop offset="100%" stop-color="#4ce44d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3ee6ff"/>
+      <stop offset="100%" stop-color="#3a84ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <path d="M190 315 C260 190, 450 175, 620 90 C585 170, 485 245, 360 300 C415 330, 470 355, 455 420 C435 515, 300 520, 240 690" fill="none" stroke="url(#green)" stroke-width="28" stroke-linecap="round" filter="url(#glowGreen)"/>
+  <path d="M580 300 h130 M645 235 v130" stroke="url(#blue)" stroke-width="22" stroke-linecap="round" filter="url(#glowBlue)"/>
+  <text x="90" y="790" font-size="96" font-family="Orbitron,Arial,sans-serif" font-weight="700" fill="url(#green)" filter="url(#glowGreen)">SHERMODZ</text>
+</svg>
